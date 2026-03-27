@@ -6,6 +6,11 @@ permalink: "/"  #! Remove this if not the homepage
 staff:
  - name: Nick Field
    link: https://library.utoronto.ca/staff/nick-field
+maintainer:
+ - name: Nadia Muhe
+   link: https://library.utoronto.ca/staff/nadia-muhe
+ - name: Leanne Trimble
+   link: https://library.utoronto.ca/staff/leanne-trimble
 ---
 
 # PCCF+ Guide
