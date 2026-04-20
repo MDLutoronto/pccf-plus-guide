@@ -10,7 +10,7 @@ Part B. Adding your dataset and census data
 
 #### **In this section of the guide, we will add your dataset and census data to our final dataset from part A.**
 
-1. Our final dataset from part A is [mypostalcodespccfp.csv](https://maps.library.utoronto.ca/workshops/PCCF/mypostalcodespccfp.csv). Our dataset is [My\_dataset.csv](https://maps.library.utoronto.ca/workshops/PCCF/My_dataset.csv). Now we need to download our census dataset.
+1. Our final dataset from part A is [mypostalcodespccfp.csv](https://maps.library.utoronto.ca/workshops/PCCF/mypostalcodespccfp.csv). Our dataset is [My_dataset.csv](https://maps.library.utoronto.ca/workshops/PCCF/My_dataset.csv). Now we need to download our census dataset.
 
     We can download the census dataset from the CHASS Data Centre website. To access the data from CHASS, you will need to login using your UTORid using the following link: [https://login.library.utoronto.ca/index.php?url\=http://dc.chass.utoronto.ca/](https://login.library.utoronto.ca/index.php?url=http://dc.chass.utoronto.ca/)
 
@@ -32,16 +32,16 @@ Part B. Adding your dataset and census data
 
     <img src='{{ '/assets/images/PCCFPlus_B_005.png' | relative_url }}' alt='A website page from the CHASS Analyser. The title reads: Step1: Specify Census Geography for retrieval. The tab by Name is selected. Underneath is a list of all letters of the alphabet. All letters are selected. ' title='' width='65%' height='1165' />
 
-6. In step 2, you can select the census variables that you are interested in. (Note: you may need to scroll way down the page before you see step 2\). The variables are grouped by topic under the topic tabs (eg. Population and dwellings, Age & sex etc). You will find the list of variables under the tabs. To select a variable, click on the check box to the left of the variable description.
+6. In step 2, you can select the census variables that you are interested in. (Note: you may need to scroll way down the page before you see step 2). The variables are grouped by topic under the topic tabs (eg. Population and dwellings, Age & sex etc). You will find the list of variables under the tabs. To select a variable, click on the check box to the left of the variable description.
 
     <img src='{{ '/assets/images/PCCFPlus_B_006.png' | relative_url }}' alt='A website page from the CHASS Analyser. The title reads: Step2: Specify Census Profile variables for retrieval. Underneath is the option to select Census Profile Variables. The Income tab is selected. Under Income - Total Sex, the option Median total income in 2015 among recipients ($) (v1868) is selected.' title='' width='70%' height='1235' />
 
     For this guide, we select the following four variables:
 
-    1. Income \- Total Sex / Total \- Income statistics in 2015 for the population aged 15 years and over in private households \- 100% data / Number of total income recipients aged 15 years and over in private households \- 100% data / Median total income in 2015 among recipients ($) (v1868\)
-    2. Housing \- Total Sex / Total \- Owner households in non\-farm, non\-reserve private dwellings \- 25% sample data / Median monthly shelter costs for owned dwellings ($) (v3942\)
-    3. Education \- Total Sex / Total \- Highest certificate, diploma or degree for the population aged 15 years and over in private households \- 25% sample data (v4920\)
-    4. Education \- Total Sex / Total \- Highest certificate, diploma or degree for the population aged 15 years and over in private households \- 25% sample data / Postsecondary certificate, diploma or degree / University certificate, diploma or degree at bachelor level or above (v4929\)
+    1. Income - Total Sex / Total - Income statistics in 2015 for the population aged 15 years and over in private households - 100% data / Number of total income recipients aged 15 years and over in private households - 100% data / Median total income in 2015 among recipients ($) (v1868\)
+    2. Housing - Total Sex / Total - Owner households in non-farm, non-reserve private dwellings - 25% sample data / Median monthly shelter costs for owned dwellings ($) (v3942\)
+    3. Education - Total Sex / Total - Highest certificate, diploma or degree for the population aged 15 years and over in private households - 25% sample data (v4920\)
+    4. Education - Total Sex / Total - Highest certificate, diploma or degree for the population aged 15 years and over in private households - 25% sample data / Postsecondary certificate, diploma or degree / University certificate, diploma or degree at bachelor level or above (v4929\)
 
 7. In step 3, you can select the geographic variables to be included in the census dataset and the output data format to download the census dataset.
 
@@ -53,15 +53,15 @@ Part B. Adding your dataset and census data
 
     The wizard might take a few minutes to complete the query. When the data request is complete, you will be provided with two links. One to download the data file and another one to download a file with descriptions of the column names in the first data file.
 
-    Right\-click on the link next to Data file to download the census dataset. Choose Save Link As… We save this data file as census2016\.csv.
+    Right-click on the link next to Data file to download the census dataset. Choose Save Link As… We save this data file as census2016\.csv.
 
     <img src='{{ '/assets/images/PCCFPlus_B_009.png' | relative_url }}' alt='A website page from the CHASS Analyser. The title reads: Data Centre Download Status. Underneath it lists the Data Request Summary. It gives the option to download the files. There is a link for the Data file and a link for the Header file.' title='' width='80%' height='1501' />
 
-    Now that we have downloaded the census dataset, we have all three data files ready: My\_datatset.csv (our dataset), mypostalcodespccfp.csv (our data from part A), and census2016\.csv (our census dataset).
+    Now that we have downloaded the census dataset, we have all three data files ready: My_datatset.csv (our dataset), mypostalcodespccfp.csv (our data from part A), and census2016.csv (our census dataset).
 
     We want to enrich the data from part A with our dataset and census data. We will continue to use SAS to combine these three datasets. The code we will run in SAS is described below.
 
-8. In SAS, we open a new editor: go to the File menu\>select New Program. We will type the SAS code in the new editor.
+8. In SAS, we open a new editor: go to the File menu>select New Program. We will type the SAS code in the new editor.
 
 9. First, we import our three data files using the following SAS code. The code renames these datasets mydataset, mypostalcodespccfp and census respectively in the context of SAS.
 
@@ -118,7 +118,7 @@ Part B. Adding your dataset and census data
 
 11. Then we combine mydataset and mypostalcodespccfp. We need to prepare these two datasets before we can combine them using the SAS code below.
 
-    We rename the postal\_code variable in mydataset to pcode to match the variable in mypostalcodespccfp dataset.
+    We rename the postal_code variable in mydataset to pcode to match the variable in mypostalcodespccfp dataset.
 
     The postal codes in the pcode variable in mydataset have a single space between the first three characters or the forward sortation area and the last three characters or the local delivery unit. We remove this space to match the postal codes in mypostalcodespccfp.
 
@@ -241,6 +241,4 @@ Part B. Adding your dataset and census data
     ```
     The complete SAS code file to add our dataset and census data can be downloaded [here](https://maps.library.utoronto.ca/workshops/PCCF/PCCF+%20SAS%20code%20-%20Part%20B.sas).
 
-**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) \| Tools: [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) \| Data Format: [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
-
-**Date Created:** 2023\-06\-06 **Updated:** 2023\-07\-13
+**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) | Tools: [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) | Data Format: [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
