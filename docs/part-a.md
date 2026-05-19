@@ -3,6 +3,13 @@ title: Part A. Use the PCCF + to assign standard geographic codes/names to your 
 parent: PCCF+ Guide
 nav_order: 1
 layout: default
+created_date: 2023/06-06
+maintainer:
+    - name: Leanne Trimble
+      link: https://library.utoronto.ca/staff/leanne-trimble
+    - name: Nadia Muhe
+      link: https://library.utoronto.ca/staff/nadia-muhe
+
 ---
 
 Part A: Use the PCCF+ to assign standard geographic codes/names to your postal codes
@@ -44,4 +51,4 @@ In this section, you will prepare your postal codes and assign geographic data t
 
 We complete the steps in this guide using the postal codes from [My_dataset.csv](https://maps.library.utoronto.ca/workshops/PCCF/My_dataset.csv). Our input file is [My_postalcodes.csv](https://maps.library.utoronto.ca/workshops/PCCF/My_postalcodes.csv). And in the last step, we save our output dataset as [mypostalcodespccfp.csv](https://maps.library.utoronto.ca/workshops/PCCF/mypostalcodespccfp.csv)
 
-**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) | Tools: [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) | Data Format: [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
+**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) \| **Tools:** [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) \| **Data Format:** [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
