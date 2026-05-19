@@ -4,16 +4,14 @@ layout: "home"
 description: "In this tutorial, we will use the Postal Code Conversion File Plus (PCCF+) to match postal codes to dissemination areas in order to incorporate additional neighbourhood-level demographic data into your dataset."
 created_date: 2023/06-06
 permalink: "/"  #! Remove this if not the homepage
-staff:
- - name: Nick Field
-   link: https://library.utoronto.ca/staff/nick-field
 maintainer:
- - name: Nadia Muhe
-   link: https://library.utoronto.ca/staff/nadia-muhe
- - name: Leanne Trimble
-   link: https://library.utoronto.ca/staff/leanne-trimble
+    - name: Leanne Trimble
+      link: https://library.utoronto.ca/staff/leanne-trimble
+    - name: Nadia Muhe
+      link: https://library.utoronto.ca/staff/nadia-muhe
 nav_order: 0
 has_children: true
+has_toc: false
 ---
 
 # PCCF+ Guide
@@ -37,4 +35,4 @@ The following guide contains two parts and an appendix. In part A, you will star
 
 
 
-**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) | Tools: [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) | Data Format: [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
+**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) \| **Tools:** [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) \| **Data Format:** [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)

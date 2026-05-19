@@ -3,6 +3,12 @@ title: Part B. Adding your dataset and census data
 parent: PCCF+ Guide
 nav_order: 2
 layout: default
+created_date: 2023/06-06
+maintainer:
+    - name: Leanne Trimble
+      link: https://library.utoronto.ca/staff/leanne-trimble
+    - name: Nadia Muhe
+      link: https://library.utoronto.ca/staff/nadia-muhe
 ---
 
 Part B. Adding your dataset and census data
@@ -241,4 +247,4 @@ Part B. Adding your dataset and census data
     ```
     The complete SAS code file to add our dataset and census data can be downloaded [here](https://maps.library.utoronto.ca/workshops/PCCF/PCCF+%20SAS%20code%20-%20Part%20B.sas).
 
-**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) | Tools: [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) | Data Format: [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
+**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) \| **Tools:** [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) \| **Data Format:** [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
