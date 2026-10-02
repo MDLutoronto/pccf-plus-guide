@@ -17,7 +17,7 @@ Part A: Use the PCCF+ to assign standard geographic codes/names to your postal c
 
 In this section, you will prepare your postal codes and assign geographic data to them using the PCCF+.
 
-1. First, you need to download the PCCF+ dataset from the MDL website: [https://mdl.library.utoronto.ca/collections/numeric-data/census-canada/postal-code-conversion-file](https://mdl.library.utoronto.ca/collections/numeric-data/census-canada/postal-code-conversion-file).
+1. First, you need to download the PCCF+ dataset from the MDL website: [https://mdlutoronto.github.io/pccf-guide/](https://mdlutoronto.github.io/pccf-guide/).
 
     Choose the census year of interest:
 
@@ -51,4 +51,4 @@ In this section, you will prepare your postal codes and assign geographic data t
 
 We complete the steps in this guide using the postal codes from [My_dataset.csv](https://maps.library.utoronto.ca/workshops/PCCF/My_dataset.csv). Our input file is [My_postalcodes.csv](https://maps.library.utoronto.ca/workshops/PCCF/My_postalcodes.csv). And in the last step, we save our output dataset as [mypostalcodespccfp.csv](https://maps.library.utoronto.ca/workshops/PCCF/mypostalcodespccfp.csv)
 
-**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) \| **Tools:** [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) \| **Data Format:** [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
+**Technique:** [Quantitative Data Analysis](https://mdlutoronto.github.io/tutorials-search/?technique=Quantitative+Data+Analysis) | **Tools:** [R](https://mdlutoronto.github.io/tutorials-search/?tool=R), [SAS](https://mdlutoronto.github.io/tutorials-search/?tool=SAS), [SPSS](https://mdlutoronto.github.io/tutorials-search/?tool=SPSS) | **Data Format:** [Microdata](https://mdlutoronto.github.io/tutorials-search/?dataFormat=Microdata)
